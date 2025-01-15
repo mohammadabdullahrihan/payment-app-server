@@ -13,7 +13,7 @@ app.use(cors({
   origin: [
       'http://localhost:5173',
       'http://localhost:5174',
-      'https://writingx-assignment-11.netlify.app'
+      'https://payment-app-server.onrender.com'
   ],
   credentials: true
 }));
