@@ -11,7 +11,6 @@ dotenv.config();
 const app: Application = express();
 app.use(cors({
   origin: [
-      'http://localhost:5173',
       'http://localhost:5174',
       'https://payment-app-server.onrender.com'
   ],
